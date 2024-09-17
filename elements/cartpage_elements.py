@@ -1,0 +1,1 @@
+CART_ITEM_NAMES="//div[@class='inventory_item_name']"
