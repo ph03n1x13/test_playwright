@@ -10,3 +10,4 @@ class WebPage:
 
     def close_browser(self):
         self.page.close() # close the webpage context
+                
