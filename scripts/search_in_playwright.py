@@ -1,5 +1,9 @@
 from playwright.sync_api import sync_playwright
 
+"""
+These are rough scripts for one time execution. You can ignore these
+"""
+
 playwright = sync_playwright().start()
 chromium = playwright.chromium.launch(headless=False)
 context = chromium.new_context()
